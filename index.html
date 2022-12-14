@@ -8,6 +8,28 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
+    <div class="wrapper">
+      <p>Wind Direction</p>
+      <div class="direction-switcher">
+        <input type="radio" name="direction" id="left" />
+        <label for="left">Left</label>
+        <input type="radio" name="direction" id="none" checked />
+        <label for="none">NOne</label
+        ><input type="radio" name="direction" id="right" />
+        <label for="right">Right</label>
+        <span class="slider"></span>
+      </div>
+      <p>Time</p>
+      <div class="select">
+        <input type="text" readonly placeholder="Time" value="Morning" />
+        <div class="select-content">
+          <div class="option">morning</div>
+          <div class="option">afternoon</div>
+          <div class="option">evening</div>
+          <div class="option">night</div>
+        </div>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
