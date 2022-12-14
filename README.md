@@ -7,13 +7,13 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ---
-![snow](readme/underconstruction.gif)
 
+![snow](readme/underconstruction.gif)
 
 ## Info
 
-Создано на основе Youtube канала [Cosas Learning](https://www.youtube.com/@CosasLearning).  
-Happy New Year Countdown! Learning **CSS** and **JavaScript**.
+Создано на основе работы [Paweł Czarnecki](https://codepen.io/bawelna0225).  
+Snow! Snow effect. Learning **CSS** and **JavaScript**.
 
 ---
 
