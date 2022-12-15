@@ -14,7 +14,7 @@
 
 ## Info
 
-Создано на основе работы [Paweł Czarnecki](https://codepen.io/bawelna0225).  
+Создано на основе работ [Paweł Czarnecki](https://codepen.io/bawelna0225).  
 Snow! Snow effect and animation. Learning **CSS** and **JavaScript**.
 
 ---
