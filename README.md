@@ -8,12 +8,14 @@
 
 ---
 
-![snow](readme/underconstruction.gif)
+[Demo Link <br>![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/AlexGolovanov/pen/wvXVdwK)
+
+![snow](readme/gif.webp)
 
 ## Info
 
 Создано на основе работы [Paweł Czarnecki](https://codepen.io/bawelna0225).  
-Snow! Snow effect. Learning **CSS** and **JavaScript**.
+Snow! Snow effect and animation. Learning **CSS** and **JavaScript**.
 
 ---
 
