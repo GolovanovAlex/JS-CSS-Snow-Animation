@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 * {
   padding: 0;
   margin: 0;
@@ -21,7 +21,6 @@
 :root.right {
   --wind-transform: 20vw;
 }
-
 body {
   height: 100vh;
   background-color: #92a2ff;
@@ -109,7 +108,7 @@ body.night {
   align-items: center;
   position: relative;
   padding: 0 3px;
-  background-color: var(--primary-color);
+  background-color: var(--color_main);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -123,7 +122,6 @@ body.night {
   transform: translateX(-110%);
   transition: 0.15s ease, transform 0.25s ease-out;
   z-index: 1;
-  background-color: var(--bg-button);
   background-image: repeating-linear-gradient(
       45deg,
       rgba(118, 118, 118, 0.05) 0px,
@@ -243,7 +241,7 @@ body.night {
   top: 50px;
   width: 100%;
   border-radius: var(--border-radius);
-  background-color: var(--primary-color);
+  background-color: var(--color_main);
   box-shadow: var(--box-shadow);
   overflow: hidden;
   visibility: hidden;
@@ -252,13 +250,13 @@ body.night {
 }
 .wrapper .select .select-content .option {
   padding: 12px 20px;
-  color: var(--text-color);
+  color: var(--color_text);
   text-transform: capitalize;
   cursor: pointer;
 }
 .wrapper .select .select-content .option:hover {
-  background-color: var(--hover-color);
-  color: var(--hover-text-color);
+  background-color: var(--color_hover);
+  color: var(--color_text-color);
 }
 .wrapper .select.open::before {
   right: 20px;
@@ -280,7 +278,7 @@ body.night {
   font-size: 16px;
   text-transform: capitalize;
   color: var(--color_text);
-  background-color: var(--primary-color);
+  background-color: var(--color_main);
   box-shadow: var(--box-shadow);
   border: none;
   border-radius: var(--border-radius);
@@ -288,14 +286,14 @@ body.night {
   cursor: pointer;
 }
 .snowflake {
+  color: #fff;
   position: absolute;
   top: -20px;
-  color: #fff;
   animation: fall linear forwards;
 }
 
 @keyframes fall {
   to {
-    transform: translateX(var(--wind-transfrom)) translateY(105vh);
+    transform: translateX(var(--wind-transform)) translateY(105vh);
   }
 }
